@@ -13,6 +13,10 @@
     height: 100px;
     width: 100px;
     transition: width 2s, opacity 0.5s;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .rect:hover {
