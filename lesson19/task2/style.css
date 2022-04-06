@@ -1,9 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body i:nth-child(1) {
-    font-size: 16x;
+    font-size: 18px;
 }
 
 body i:nth-child(2) {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 body i:nth-child(3) {
