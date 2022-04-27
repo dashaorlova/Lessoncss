@@ -33,8 +33,7 @@
     height: 4px;
     border-radius: 2px;
     background-color: black;
-    animation: blinking 2s infinite;
-    animation: moving 2s infinite;
+    animation: blinking 2s infinite, moving 2s infinite;
 }
 
 .spinner-text {
