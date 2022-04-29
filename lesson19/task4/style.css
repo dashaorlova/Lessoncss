@@ -16,7 +16,7 @@
     color: white;
     text-transform: uppercase;
     text-align: center;
-    left: 50%;
+    left: calc(50% - 125px);
     display: flex;
     flex-direction: column;
     justify-content: center;
