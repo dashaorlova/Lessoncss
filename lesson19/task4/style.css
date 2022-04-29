@@ -2,29 +2,31 @@
     box-sizing: border-box;
 }
 
-body {
+.block {
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: coral;
+    animation: move 2s ease;
+    animation-fill-mode: both;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
     text-align: center;
-}
-
-.block {
-    position: absolute;
-    animation: move 4s;
-    height: 100px;
-    width: 250px;
-    border-radius: 10px;
-    background-color: coral;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 @keyframes move {
     from {
-        top: 100;
+        top: 100px;
     }
     to {
         top: calc(50vh-50px);
