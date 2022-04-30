@@ -2,10 +2,7 @@
     box-sizing: border-box;
 }
 
-.container {
-    display: flex;
-    height: 100vh;
-}
+.container {}
 
 .spinner {
     margin: auto;
@@ -13,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .spinner-text {
