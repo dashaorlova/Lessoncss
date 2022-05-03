@@ -78,13 +78,15 @@ h1 {
     color: white;
     line-height: 2em;
     margin-bottom: 0.5em;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
 
 .nav-list-link {
     color: white;
     text-decoration: none;
     margin: 0 0.5em;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
 }
