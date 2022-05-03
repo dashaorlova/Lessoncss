@@ -15,14 +15,14 @@ span {
     background: #ff7f50;
     min-height: 200px;
     display: flex;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .products_list {
     background: #006400;
     min-height: 200px;
     display: flex;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .news {
@@ -35,7 +35,6 @@ span {
 @media screen and (min-width:600px) {
     .producs {
         display: flex;
-        flex-grow: 2;
         flex: 2;
     }
 }
