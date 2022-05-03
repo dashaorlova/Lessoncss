@@ -15,21 +15,21 @@ span {
     background: #ff7f50;
     min-height: 200px;
     display: flex;
-    flex: 1;
+    flex-grow: 1;
 }
 
 .products_list {
     background: #006400;
     min-height: 200px;
     display: flex;
-    flex: 1;
+    flex-grow: 1;
 }
 
 .news {
     background: #0ff;
     min-height: 200px;
     display: flex;
-    flex: 1;
+    flex-grow: 1;
 }
 
 @media screen and (min-width:600px) {
