@@ -33,7 +33,7 @@ button {
 .nav-list-link {
   color: white;
   text-decoration: none;
-  padding: 0 0.5em 0 0.5em;
+  padding: 0.5em;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
