@@ -114,14 +114,13 @@ img {
   }
 }
 @media screen and (min-width: 900px) {
-
   .main {
     display: flex;
   }
   .section {
-    width: 60%;}
-    .news {
-
-      width: 20%;
-    }
+    width: 60%;
+  }
+  .news {
+    width: 20%;
+  }
 }
