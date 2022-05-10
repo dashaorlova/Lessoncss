@@ -118,4 +118,10 @@ img {
   .main {
     display: flex;
   }
+  .section {
+    width: 60%;}
+    .news {
+
+      width: 20%;
+    }
 }
