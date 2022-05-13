@@ -98,16 +98,17 @@ img {
 
 @media screen and (min-width: 600px) {
   .navigation {
-    width: 20%;
+    flex: 1;
     float: left;
+    width: 100%;
   }
   .section {
-    width: 80%;
+    flex: 2;
     float: right;
   }
   .news {
     clear: both;
-    width: 100%;
+    flex: 1;
   }
   .main {
     display: block;
@@ -118,9 +119,13 @@ img {
     display: flex;
   }
   .section {
-    width: 60%;
+    flex: 2;
   }
   .news {
-    width: 20%;
+    flex: 1;
   }
+  .navigation {
+    flex: 1;
+  }
+
 }
