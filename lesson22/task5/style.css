@@ -94,10 +94,9 @@ img {
 }
 @media screen and (min-width: 900px) {
   .main {
-
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .navigation {
     width: 20vw;
