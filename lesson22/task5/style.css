@@ -92,6 +92,25 @@ img {
   max-width: 100%;
   margin: auto;
 }
+@media screen and (min-width: 900px) {
+  .main {
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .navigation {
+    width: 20vw;
+  }
+
+  .section {
+    width: 80vw;
+  }
+
+  .news {
+    width: 100vw;
+  }
+}
 @media screen and (min-width: 1200px) {
   .main {
     display: flex;
