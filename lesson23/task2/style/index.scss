@@ -1,8 +1,27 @@
-@import 'header.scss';
+@import 'bracpoint.scss';
 
 * {
   box-sizing: border-box;
 }
-html{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  margin: 16px;
+
+    @include for-meddium-up{
+      background-color: azure;
+    }
+
+   @include for-lart-up{
+      background-color: gold;
+    }
+}
+
