@@ -18,11 +18,13 @@ body {
 @media screen and (min-width: 900px) {
   .square {
     background-color: azure;
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 1200px) {
   .square {
     background-color: gold;
+    flex-direction: column;    
   }
 }
 
