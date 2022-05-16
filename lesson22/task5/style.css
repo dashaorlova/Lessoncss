@@ -92,7 +92,7 @@ img {
   max-width: 100%;
   margin: auto;
 }
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 600px) {
   .main {
     display: flex;
     flex-direction: row;
