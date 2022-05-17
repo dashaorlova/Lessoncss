@@ -16,17 +16,25 @@
   height: 100px;
   background-color: #ff7f50;
   margin: 8px;
-
-    @include for-meddium-up{
-      background-color: #8a2be2;
+ 
+  @include     extra-small-q {
+    background-color: #8a2be2;
 
     }
 
-   @include for-lart-up{
+    @include for-meddium-up{
       background-color: #a61;
 
     }
 
+   @include for-lart-up{
+      background-color: #c47;
 
+    }
 }
 
+@media all and (orientation:portrait) {
+  .container {
+      flex-direction: column;
+  }
+}

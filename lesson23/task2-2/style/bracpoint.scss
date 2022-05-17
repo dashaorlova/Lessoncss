@@ -9,6 +9,12 @@ $lg: 1200px;
         @content;
     }
 }
+@mixin extra-small-q {
+    @media screen and (min-width: $sm) {
+        @content;
+
+    }
+}
 @mixin for-meddium-up {
     @media screen and  (min-width: $md) {
         @content;

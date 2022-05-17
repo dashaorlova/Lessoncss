@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["style/index.scss","style/bracpoint.scss"],"names":[],"mappings":"AAEA;EACE;;;AAGF;EACE;EACA;EACA;EACA;;;AAEF;EACE;EACA;EACA;EACA;;ACNE;EDEJ;IAOM;;;ACHF;EDJJ;IAYM;ICNE;;;;ADUR;EACE;IACI","file":"styles.css"}
+{"version":3,"sourceRoot":"","sources":["style/index.scss","style/bracpoint.scss"],"names":[],"mappings":"AAEA;EACE;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;ACLE;EDCJ;IAOM;;;ACHF;EDJJ;IAYM","file":"styles.css"}
