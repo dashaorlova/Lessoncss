@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+.container{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,14 +14,21 @@ body{
   width: 100px;
   height: 100px;
   background-color: coral;
-  margin: 16px;
+  margin: 8px;
 
     @include for-meddium-up{
       background-color: azure;
+ 
     }
 
    @include for-lart-up{
       background-color: gold;
     }
+
+}
+@media screen and  (orientation:portrait) {
+  .container{
+      flex-direction: column;
+  }
 }
 
