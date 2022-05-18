@@ -6,13 +6,13 @@
   padding-bottom: 0;
   text-transform: uppercase;
   background-color: #006400;
-  display: flex;
 }
 
 .menu {
   display: flex;
   list-style: none;
   color: white;
+  margin-left: 3em;
 }
 
 .menu__item:hover {
@@ -23,6 +23,7 @@
   margin: 0 8px;
   padding: 0 8px;
   cursor: pointer;
+  line-height: 3em;
 }
 
 .menu__item:hover {
@@ -45,10 +46,13 @@
   z-index: 1;
   position: absolute;
   display: none;
-  top: 2em;
+  top: 3em;
 }
 .submenu__item {
   margin: 8px 0;
+}
+.submenu__item:hover {
+  color: black;
 }
 
 .menu__item_active:hover .submenu {
