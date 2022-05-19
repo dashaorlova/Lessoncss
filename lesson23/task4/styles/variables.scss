@@ -1,0 +1,24 @@
+
+$sm : 600px;
+$md : 900px;
+
+
+
+@mixin extra-small {
+    @media screen and (min-width: $sm){
+        @content;
+    }
+}
+
+@mixin for-meddium-up {
+    @media screen and  (min-width: $md) {
+        @content;
+    }
+}
+
+
+@mixin theme {
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+  }
