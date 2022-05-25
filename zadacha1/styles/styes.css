@@ -8,8 +8,8 @@ body {
   background-color: #141b1c;
   width: 1440px;
   display: flex;
-
-  padding: 115px 132px;
+  margin: auto;
+  padding: 115px 132px 118px 132px;
 }
 
 .section {
