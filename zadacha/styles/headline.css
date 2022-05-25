@@ -1,58 +1,106 @@
 .headline {
-  width: 1140px;
-  margin: auto;
-  margin-top: 84px;
-  display: flex;
-  padding-bottom: 72px;
+  width: 100%;
 }
 .headline__banner {
- margin-left: auto;
- position: relative;
-  top: 0px;
-  right: -105px;
-  width: 796px;
-  height: 448px;
+  margin-bottom: 36px;
 
+  width: 100%;
 }
-.headline_content{
+.headline_content {
+  margin: 35px 15px 33px 15px;
+  z-index: 1;
+}
+.headline__discription {
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 0;
+}
+.headline__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.325px;
+  color: rgba(43, 41, 45, 1);
+  margin: 0;
+}
+.headline_action {
+  margin-top: 30px;
+}
+
+.headline__learn_more_button {
+  color: rgba(48, 64, 196, 1);
+  background: white;
+  margin-top: 15px;
+  width: 160px;
+  height: 48px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+}
+
+@media screen and (max-width: 399px) {
+  .headline_action-btn {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 400px) {
+  .headline_content {
     position: absolute;
     z-index: 1;
-}
-.headline__discription{
+  }
+  .headline {
+    width: 1140px;
+    margin: auto;
+    margin-top: 84px;
+    display: flex;
+    padding-bottom: 72px;
+    position: relative;
+  }
+  .headline_content {
+    margin: 35px 15px 15px 33px;
+    z-index: 1;
+  }
+  .headline__title {
+    width: 754px;
+    height: 165px;
+    color: rgba(43, 41, 45, 1);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+    z-index: 1;
+    margin: 0;
+  }
+  .headline__discription {
     margin-top: 34px;
     height: 102px;
     width: 456px;
     font-size: 24px;
     line-height: 34px;
     margin-bottom: 0;
-
-}
-.headline__title{
-    width: 754px;
-    height: 165px;
-    color: rgba(43, 41, 45, 1);
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 78px;
-    letter-spacing: -0.5px;
-    z-index: 1;
-    margin: 0;
-
-}
-.headline_action{
-    margin-top: 58;
+  }
+  .headline_action {
+    margin-top: 58px;
     display: flex;
-
-}
-.headline__learn_more_button{
+  }
+  .headline__learn_more_button {
     margin-left: 10px;
     color: rgba(48, 64, 196, 1);
     background: white;
-
+    margin-top: 0px;
     width: 160px;
     height: 48px;
     font-weight: 700;
     border-radius: 2px;
     border: none;
-
+  }
+  .headline__banner {
+    margin-left: auto;
+    position: relative;
+    top: 0px;
+    right: -105px;
+    width: 796px;
+    height: 448px;
+  }
 }

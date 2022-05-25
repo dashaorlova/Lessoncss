@@ -22,10 +22,9 @@
   }
   
   .footer__navigation {
-    width: 1140px;
     margin: 0 auto;
-    height: 338px;
     display: flex;
+    flex-direction: column;
   
   }
   
@@ -50,14 +49,7 @@
     margin-left: 20px;
   
   }
-  .footer__description{
-    line-height: 26px;
-    font-size: 18px;
-    width: 360px;
-    margin-top: 26px;
-    color:  rgba(43, 41, 45, 0.6);
-  
-  }
+ 
   .downloads{
     margin-top: 25px;
   }
@@ -71,6 +63,7 @@
     margin-top: 60px;
     margin-left: auto;
     display: flex;
+    flex-direction: column;
   }
   .addihin-navigation_collum{
     margin-right: 29px;
@@ -96,3 +89,61 @@
     color: rgba(43, 41, 45, 0.6);
     margin-top: 8px;
   }
+  .footer__description{
+    display: none;
+    line-height: 26px;
+    font-size: 18px;
+    margin-top: 26px;
+    color:  rgba(43, 41, 45, 0.6);
+    width: 360px;
+  }
+  .logo-vertical{
+display: flex;
+flex-direction: column;
+align-items: center;
+  }
+  .logo-vertica-name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+text-align: center;
+margin-top: 20px;
+  }
+  .logo-vertica-discription{
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    color:  rgba(43, 41, 45, 0.6);
+
+  }
+  .logo-vertica-img{
+    width: 60px;
+    height: 60px;
+
+  }
+  .logo-vertica-name{
+
+  }
+  @media screen and (min-width: 400px) {
+ .logo-vertical{
+   display: none;
+ }
+ .footer__description{
+flex-direction: row;
+  display: block;
+
+}
+.footer__navigation {
+  width: 1140px;
+  margin: 0 auto;
+  height: 338px;
+  display: flex;
+
+}
+  }
+  @media screen and (max-width: 399px) {
+    .footer .logo{
+      display: none;
+    }
+   
+     }

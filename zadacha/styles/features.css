@@ -75,3 +75,8 @@
 right: 0;
 box-shadow: rgba(44, 50, 65, 0.08);
 }
+@media screen and (max-width: 399px) {
+    .features {
+        display: none;
+      }
+}
