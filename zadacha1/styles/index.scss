@@ -10,9 +10,11 @@ body {
 .conteiner {
   background-color: #141b1c;
   width: 1440px;
+  height: 1000px;
   display: flex;
   margin: auto;
-  padding: 115px 132px 115px 132px;
+  align-items: center;
+  justify-content: center;
 }
 
 .price-card {
@@ -69,6 +71,8 @@ body {
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 img {
