@@ -2,16 +2,19 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat";
 }
+
 .conteiner {
-  background-color: $color-primary;
+  background-color: #141b1c;
   width: 1440px;
   display: flex;
   margin: auto;
   padding: 115px 132px 118px 132px;
 }
+
 .price-card {
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -19,6 +22,7 @@ body {
   margin-right: 18px;
   position: relative;
 }
+
 .price-card__title {
   font-weight: 700;
   font-size: 35px;
@@ -28,14 +32,16 @@ body {
   margin: 0;
   margin-top: 33px;
 }
+
 .price-card__name {
-  font-weight: 700;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 21px;
   text-align: center;
   color: white;
   margin: 0;
 }
+
 .price-card__price {
   background-color: #5bb189;
   color: white;
@@ -46,6 +52,7 @@ body {
   line-height: 105px;
   height: 105px;
 }
+
 .price-card__discription {
   margin: 26px 40px;
   font-weight: 300;
@@ -56,25 +63,31 @@ body {
   margin: 40px 0px 40px 26px;
   width: 327px;
 }
-.price-card__option-list {
+
+.price-card__options-list {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
 }
+
 img {
   margin-right: 16px;
 }
-.price-card__option-list-item:nth-child(2n + 1) {
-  background: $color-secondary;
+
+.price-card__options-list-item:nth-child(2n+1) {
+  background: #2a3438;
 }
-.price-card__option-list-item {
-  padding: 18px 0px 19px 22px;
+
+.price-card__options-list-item {
+  padding: 16px 0px 16px 22px;
 }
-.price-card__bottom {
+
+.price-card__order-btn {
   text-align: center;
 }
-.price-card__bottom-activ {
+
+.price-card__order-btn-activ {
   background-color: #5bb189;
   font-weight: 400;
   font-size: 14px;
@@ -89,14 +102,17 @@ img {
   border: none;
   padding: 11px 28px 12px 27px;
 }
-.price-card_decoration {
+
+.bange {
   position: absolute;
   left: 276px;
 }
+
 .price-card:last-child {
   margin: 0;
 }
-.price-card_text {
+
+.bange_text {
   transform: rotate(45deg);
   font-weight: 700;
   font-size: 14px;
@@ -105,4 +121,10 @@ img {
   position: absolute;
   left: 304px;
   top: 26px;
+}
+.blue{
+  background-color:#3A6BA5 ;
+}
+.red{
+  background-color:#EC632A ;
 }

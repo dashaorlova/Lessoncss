@@ -63,7 +63,7 @@ body {
   width: 327px;
 }
 
-.price-card__option-list {
+.price-card__options-list {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -74,19 +74,19 @@ img {
   margin-right: 16px;
 }
 
-.price-card__option-list-item:nth-child(2n+1) {
+.price-card__options-list-item:nth-child(2n+1) {
   background: #2a3438;
 }
 
-.price-card__option-list-item {
+.price-card__options-list-item {
   padding: 16px 0px 16px 22px;
 }
 
-.price-card__bottom {
+.price-card__order-btn {
   text-align: center;
 }
 
-.price-card__bottom-activ {
+.price-card__order-btn-activ {
   background-color: #5bb189;
   font-weight: 400;
   font-size: 14px;
@@ -102,7 +102,7 @@ img {
   padding: 11px 28px 12px 27px;
 }
 
-.price-card_decoration {
+.bange {
   position: absolute;
   left: 276px;
 }
@@ -111,7 +111,7 @@ img {
   margin: 0;
 }
 
-.price-card_text {
+.bange_text {
   transform: rotate(45deg);
   font-weight: 700;
   font-size: 14px;
@@ -120,6 +120,12 @@ img {
   position: absolute;
   left: 304px;
   top: 26px;
+}
+.blue{
+  background-color:#3A6BA5 ;
+}
+.red{
+  background-color:#EC632A ;
 }
 
 /*# sourceMappingURL=style.css.map */
