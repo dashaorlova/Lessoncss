@@ -33,8 +33,8 @@ body {
 }
 
 .price-card__name {
-  font-weight: 700;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 21px;
   text-align: center;
   color: white;
@@ -79,7 +79,7 @@ img {
 }
 
 .price-card__option-list-item {
-  padding: 18px 0px 19px 22px;
+  padding: 16px 0px 16px 22px;
 }
 
 .price-card__bottom {
